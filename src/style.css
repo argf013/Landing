@@ -6,6 +6,15 @@
 
 }
 
+nav {
+    transition: box-shadow 0.2s ease-in-out; /* animasi perubahan bayangan */
+  }
+  
+  nav.scrolled {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* tambahkan bayangan saat di-scroll */
+  }
+  
+
 .introduce {
     width: 18em;
 }
