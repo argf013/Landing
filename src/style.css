@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+* {
+    font-family: Quicksand !important;
+    font-weight: 700 !important;
+
+}
+
+.wahoo_text {
+    margin-top: 4.5em;
+}
+
+figcaption {
+    color: rgb(120, 120, 120);
+}
+
+.wahoo {
+    width: 44px;
+    color: #7785F6 !important;
+}
+
+.garis {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(217, 217, 217);
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.mx-arfa {
+    margin-right: 0 !important;
+
+}
+
+.nav-link {
+    color: #7785F6 !important;
+}
+
+.nav-link:hover {
+    color: #5060d4 !important;
+}
+
+
+
+.arfa {
+    width: 18em;
+    margin-top: 7em;
+}
+
+.arfa:hover {
+    opacity: 90%;
+}
+
+.arfa1 {
+    width: 5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.img_mid {
+    margin-top: 3em;
+}
+
+.desc_ {
+   
+    color: #FDBC3A;
+}
+
+.desc_2 {
+    font-weight: 300 !important;
+    color: black !important;
+}
+
+.logBtn {
+    background-color: #7785F6 !important;
+    color: white !important;
+    border-radius: 19px;
+}
+
+.logBtn:hover {
+    background-color: #5060d4 !important;
+}
+
+.logBtn:focus {
+    background-color: #5060d4;
+}
+
+.arBtn {
+    margin-top: 2em;
+    background-color: #7785F6;
+    color: white !important;
+}
+
+.arBtn:hover {
+    background-color: #5060d4;
+}
+
+.arBtn:focus {
+    background-color: #5060d4;
+}
+
+.line1_ {
+    margin-top: 5em !important;
+    margin-bottom: 4em !important;
+}
+
+.title_feature {
+    color: #7785F6 !important;
+}
+
+.title_feature_child{
+    color: #FDBC3A !important;
+}
+/* login */
+
+.dropdown-menu[data-bs-popper] {
+    left: -180!important;
+}
+
+@media only screen and (max-width: 415px) {
+    .desc_ {
+        margin-top: 1em !important;
+    }
+
+    .arfaCard {
+        width: 20em !important;
+    }
+
+    .img_mid {
+        margin-top: 2em;
+    }
+
+    .w-25 {
+        width: 100%!important;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        left: 0!important;
+    }
+    
+}
