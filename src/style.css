@@ -6,6 +6,10 @@
 
 }
 
+.introduce {
+    width: 18em;
+}
+
 .wahoo_text {
     margin-top: 4.5em;
 }
@@ -137,9 +141,20 @@ li {
     left: -180!important;
 }
 
+.what {
+    margin-top: 3rem!important;
+}
+
 @media only screen and (max-width: 415px) {
     .desc_ {
         margin-top: 1em !important;
+    }
+    .what {
+        margin-top: 0!important;
+    }
+    
+    .wahoo_text {
+        margin-top: 0;
     }
 
     .arfaCard {
