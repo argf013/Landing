@@ -47,7 +47,6 @@ li {
 }
 
 .nav-link:hover {
-    transform: scale(1.1);
     color: #5060d4 !important;
 }
 
